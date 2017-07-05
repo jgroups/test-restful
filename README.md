@@ -14,7 +14,7 @@ RESTful 架构：是基于 REST 思想的时下比较流行的一种互联网软
 
 在没有足够了解 REST 的时候，我们很容易错误的将其视为 “基于 URL 的 Web 服务”，即将 REST 和 SOAP 一样，是一种远程过程调用（remote procedure call，RPC）的机制。但是 REST 和 RPC 几乎没有任何关系，RPC 是面向服务的，而 REST 是面向资源的，强调描述应用程序的事物和名词。这样很容易导致的一个结果是我们在设计 RESTful API 时，在 URI 中使用动词。例如：GET /user/getUser/123。正确写法应该是 GET /user/123。
 
-使用 springMVC 支持 RESTful
+**使用 springMVC 支持 RESTful**
 
 在 spring 3.0 以后，spring 这对 springMVC 的一些增强功能对 RESTful 提供了良好的支持。在4.0后的版本中，spring 支持一下方式创建 REST 资源：
 
